@@ -21,9 +21,7 @@ const sk = process.env.STRIPE_SECRET_KEY;
 
 console.log("sk: ", sk);
 
-// const stripe = require("stripe")(
-//   "sk_test_51M23WVAZXbnAuaLLJktMTrL2oSSQKCpqvjDDHkAK1PaYlJMFtLevnKFM9qUTjl6PjS9O3F4jGv7LsX9Yp1XUcRbR00G8JLajvz"
-// );
+
 const stripe = require("stripe")(sk);
 const express = require("express");
 const app = express();
